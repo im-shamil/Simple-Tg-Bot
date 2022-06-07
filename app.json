@@ -1,0 +1,24 @@
+{
+	"name": "Simple Telegram Bot",
+	"env": {
+		"API_ID": {
+			"description": "Enter Api id",
+			"required": true
+		},
+		"API_HASH": {
+			"description": "Enter Api hash",
+			"required": true
+		},
+		"BOT_TOKEN": {
+			"description": "Enter Bot token",
+			"required": true
+		},
+		"CHANNEL_USERNAME": {
+		    "description":"Enter Your Group Username, Make Sure The Bot Has Added to the group",
+		    "required": true
+		},
+	    "ADMIN_ID": {
+	        "description":"Enter Admin Username or Id",
+	        "required": false
+	    }
+}
